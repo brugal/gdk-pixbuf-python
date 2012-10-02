@@ -1,0 +1,2 @@
+load ../_GdkPixbufLoader.so
+break ../_GdkPixbufLoader.c:_frame_to_pyobject

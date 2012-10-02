@@ -1,0 +1,6 @@
+*shared*
+
+FLAGS = -I/usr/include/pygtk `gtk-config --cflags --libs` `gdk-pixbuf-config --cflags --libs`
+_GdkPixbuf _GdkPixbuf.c $(FLAGS)
+_GdkPixbufLoader _GdkPixbufLoader.c $(FLAGS)
+
